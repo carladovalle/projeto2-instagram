@@ -1,0 +1,605 @@
+.body {
+    font-family: 'Roboto', sans-serif; 
+    width: 935px;
+    height: 1946px;
+    background-color: #FFFAFA;
+}
+
+.topo {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #FFFFFF;
+    width: 1366px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+}
+.topo-mobile {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+}
+.topo2 {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #FFFFFF;
+    width: 935px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+}
+.topo-mobile {
+    display: none;
+}
+.topo2 {
+    display: none;
+}
+.menu-inferior {
+    width: 614px;
+    height: 54px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 4;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu-inferior {
+    display: none;
+}
+.conteudo {
+    width: 935px;
+    margin: 0 auto;
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif; 
+}
+.stories {
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 118px;
+    margin-top: 34px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.stories-div::-webkit-scrollbar {
+    display: none;
+}
+.primeiropost {
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 749px;
+    margin-top: -300px;
+    border: 1px solid #DBDBDB;
+}
+.segundopost {
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 749px;
+    margin-top: 60px;
+    border: 1px solid #DBDBDB;
+}
+.terceiropost {
+    background-color: #FFFFFF;
+    width: 614px;
+    height: 749px;
+    margin-top: 60px;
+    border: 1px solid #DBDBDB;
+}
+.sidebar {
+    background-color: #FFFFFF;
+    width: 293px;
+    height: 443px;
+    margin-left: 643px;
+    margin-top: -110px;
+}
+.logoinsta {
+    height: 29px;
+    margin-left: 18px;
+}
+.tamlogo {
+    width: 103px;
+    height: 29px;
+}
+.traco {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin-top: 1px;
+    margin-left: 235px;
+}
+.traco2 {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin-top: 1px;
+}
+.pesquisar {
+    font-size: 12px;
+    height: 26px;
+    width: 215px;
+    color: #979797;
+    margin-left: 210px;
+    border-radius: 12px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAFA;
+}
+.pesquisar2 {
+    font-size: 12px;
+    height: 26px;
+    width: 215px;
+    color: #979797;
+    border-radius: 12px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFAFA;
+}
+.icone-direct {
+    height: 17.87px;
+    width: 17.87px;
+    margin-left: 147.06px;
+}
+.icone-direct2 {
+    height: 17.87px;
+    width: 17.87px;
+}
+.icone-bussola {
+    margin-left: 24.81px;
+    height: 16.5px;
+    width: 16.5px;
+}
+.icone-atividades {
+    margin-left: 25.5px;
+    height: 15.13px;
+    width: 16.5px;
+}
+.icone-contatos {
+    margin-left: 25.5px;
+    height: 15.13px;
+    width: 16.5px;
+}
+.icone-logo {
+    height: 19.25px;
+    width: 19.25px;
+    margin-left: -865px;
+}
+.icone-logo2 {
+    height: 19.25px;
+    width: 19.25px;
+    margin-left: -21.38px;
+}
+.backgroundstories {
+    width: 66px;
+    height: 66px;
+    bottom: 48px;
+	left: 1px;
+}
+.imgstories {
+    width: 56px;
+    height: 56px;
+    z-index: 1;
+    margin-top: -1px;
+}
+.novegang {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+    z-index: 1;
+    height: 80px;
+}
+.back {
+    z-index: 0;
+}
+.meowed {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+}
+.ps {
+    width: 66px;
+    height: 80px;
+    margin-left: 18px;
+}
+.ss {
+    height: 80px;
+    width: 66px;
+    margin-left: 14px;
+}
+.ts {
+    height: 80px;
+    width: 66px;
+    margin-left: 14px;
+}
+.qs {
+    height: 80px;
+    width: 66px;
+    margin-left: 14px;
+}
+.qis {
+    height: 80px;
+    width: 66px;
+    margin-left: 14px;
+}
+.ses {
+    height: 80px;
+    width: 66px;
+    margin-left: 14px;
+}
+.sts {
+    height: 80px;
+    width: 66px;
+    margin-left: 14px;
+}
+.os {
+    height: 80px;
+    width: 66px;  
+    margin-left: 14px;
+}
+.textops {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 18px;
+    width: 58px;
+    height: 19px;
+}
+.textoss {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 10px;
+    width: 58px;
+    height: 19px;
+}
+.textots {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 15px;
+    width: 58px;
+    height: 19px;
+}
+.textoqs {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 11px;
+    width: 58px;
+    height: 19px;
+}
+.textoqis {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 17px;
+    width: 58px;
+    height: 19px;
+}
+.textoses {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 7px;
+    width: 58px;
+    height: 19px;
+}
+.textosts {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 5px;
+    width: 58px;
+    height: 19px;
+}
+.textoos {
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 11px;
+    width: 58px;
+    height: 19px;
+}
+.barked {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+}
+.nathan {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+}
+.wawa {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+}
+.respondeai {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+}
+.filomoderna {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+}
+.meme {
+    position: relative;
+    bottom: 81px;
+	left: 5px;
+}
+.seta {
+    width: 26px;
+    height: 26px;
+    margin-top: 0px;
+    margin-left: 580px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 5;
+    font-size: 30px;
+}
+.imgpqnafeed {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.imgpqnafeed2 {
+    width: 20px;
+    height: 20px;
+    margin-top: 13.44px;
+    margin-left: 17px;
+}
+.meowedtexto {
+    width: 109px;
+    height: 21px;
+    margin-top: 21px;
+    margin-left: 15px;
+}
+.trespontos {
+    margin-left: 409.5px;
+    width: 9px;
+    margin-top: 29.5px;
+    height: 3px;
+}
+.linha1 {
+    display: flex;
+    flex-direction: line;  
+}
+.imgfeed {
+    width: 612px;
+    height: 612px;
+}
+.imggrandefeed {
+    margin-top: 61px;
+    margin-left: -591px;
+}
+.linhaicones {
+    display: flex;
+    flex-direction: line;
+}
+.i-coracao {
+    width: 16.5px;
+    height: 15.13px;
+    margin-top: 13.44px;
+    margin-left: 17.75px;
+}
+.i-comentario {
+    width: 17.88px;
+    height: 17.88px;
+    margin-top: 13.44px;
+    margin-left: 17.75px;
+}
+.i-direct {
+    width: 17.87px;
+    height: 17.87px;
+    margin-top: 13.44px;
+    margin-left: 18.12px;
+}
+.i-salvar {
+    width: 12.38px;
+    height: 17.88px;
+    margin-top: 13.44px;
+    margin-left: 478.08px;
+}
+.quemcurtiu2 {
+    margin-left: 42px;
+    margin-top: -20px;
+    width: 387px;
+    height: 21px;
+    font-size: 14px;
+}
+.linha1sidebar {
+    display: flex;
+    flex-direction: line;
+}
+.nome {
+    width: 182px;
+    height: 34px;
+    margin-left: 17px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.nome2{
+    color: #8E8E8E;
+}
+.sugestoes {
+    font-size: 12px;
+    display: flex;
+    flex-direction: line;
+    margin-top: 24px;
+}
+.sugestoesparavoce {
+    width: 117px;
+    height: 15px;
+    color: #8E8E8E;
+}
+.vertudo {
+    width: 55px;
+    height: 15px;
+    margin-left: 120px;
+}
+.parte {
+    display: flex;
+    flex-direction: line;
+}
+.img1 {
+    margin-left: -15px;
+}
+.nomepessoa {
+    width: 126px;
+    height: 14px;
+    font-size: 14px;
+}
+.seguevoce {
+    width: 143px;
+    height: 11px;
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top: 6px;
+}
+.seguir {
+    margin-left: 215px;
+    font-size: 12px;
+    color: #139EF2;
+    margin-top: -20px;
+}
+.nomespessoas {
+    margin-left: 11px;
+    margin-top: 17px;
+}
+.escritos {
+    width: 300px;
+    height: 42px;
+    font-size: 11px;
+    color: #C7C7C7;
+    margin-top: 33px;
+}
+.escritos2 {
+    width: 300px;
+    height: 14px;
+    font-size: 11px;
+    color: #C7C7C7;
+}
+.nome2 {
+    margin-top: 1px;
+}
+.amei {
+    width: 16.5px;
+    height: 15.13px;
+}
+.negrito {
+    font-weight: bolder;
+}
+.quemcurtiu1 {
+    margin-left: 42px;
+    margin-top: -20px;
+    width: 309px;
+    height: 21px;
+    font-size: 14px;
+}
+@media (max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+    .conteudo {
+        margin-top: 54px;
+        display: flex;
+        justify-content: center;
+    }
+    .primeiropost {
+        margin-top: 34px;
+    }
+    .topo {
+        display: none;
+    }
+    .topo2 {
+        display: flex;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .icone-bussola2 {
+        margin-left: 24.81px;
+    }
+    .icone-atividades2 {
+        margin-left: 25.5px;
+    }
+    .icone-contatos2 {
+        margin-left: 25.5px;
+    }
+    .icone-logo2 {
+        margin-right: 11.38px;
+    }
+    .icone-direct2 {
+        margin-left: 177.06px;
+    }
+    .logoinsta2 {
+        margin-right: 177px;
+    }
+    .traco2 {
+        margin-right: 10px;
+    }
+    .conteudo {
+        width: 100%;
+        margin-top: 54px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 614px) {
+    .seta {
+        display: none;
+    }
+    .topo {
+        display: none;
+    }
+    .topo2 {
+        display: none;
+    }
+    .conteudo {
+        width: 100%;
+        margin-top: 54px;
+        margin-left: 0px;
+    }
+    .primeiropost {
+        margin-top: 34px;
+    }
+    .topo-mobile {
+        display: flex;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .menu-inferior {
+        display: flex;
+        width: 100%;
+    }
+    .stories {
+        width: 100%;
+    }
+}
+  
